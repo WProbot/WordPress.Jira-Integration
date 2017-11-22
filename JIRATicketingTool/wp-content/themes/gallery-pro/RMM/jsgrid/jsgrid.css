@@ -1,0 +1,128 @@
+/*
+ * jsGrid v1.5.3 (http://js-grid.com)
+ * (c) 2016 Artem Tabalin
+ * Licensed under MIT (https://github.com/tabalinas/jsgrid/blob/master/LICENSE)
+ */
+
+.jsgrid {
+    position: relative;
+    overflow: hidden;
+    font-size: .8em;
+}
+
+.jsgrid, .jsgrid *, .jsgrid *:before, .jsgrid *:after {
+    box-sizing: border-box;
+}
+
+.jsgrid input,
+.jsgrid textarea,
+.jsgrid select {
+    font-size: .8em;
+}
+
+.jsgrid1-grid1-header {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.jsgrid1-grid1-body {
+    overflow-x: auto;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.jsgrid1-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.jsgrid1-cell {
+    padding: 0.5em 0.5em;
+}
+
+.jsgrid1-сell,
+.jsgrid1-header-cell {
+    box-sizing: border-box;
+}
+
+.jsgrid1-align-left {
+    text-align: left;
+}
+
+.jsgrid1-align-center,
+.jsgrid1-align-center input,
+.jsgrid1-align-center textarea,
+.jsgrid1-align-center select {
+    text-align: center;
+}
+
+.jsgrid1-align-right,
+.jsgrid1-align-right input,
+.jsgrid1-align-right textarea,
+.jsgrid1-align-right select {
+    text-align: right;
+}
+
+.jsgrid1-header-cell {
+    padding: .5em .5em;
+}
+
+.jsgrid1-filter-row input,
+.jsgrid1-filter-row textarea,
+.jsgrid1-filter-row select,
+.jsgrid1-edit-row input,
+.jsgrid1-edit-row textarea,
+.jsgrid1-edit-row select,
+.jsgrid1-insert-row input,
+.jsgrid1-insert-row textarea,
+.jsgrid1-insert-row select {
+    width: 100%;
+    padding: .3em .5em;
+}
+
+.jsgrid1-filter-row input[type='checkbox'],
+.jsgrid1-edit-row input[type='checkbox'],
+.jsgrid1-insert-row input[type='checkbox'] {
+    width: auto;
+}
+
+
+.jsgrid1-selected-row .jsgrid1-cell {
+    cursor: pointer;
+}
+
+.jsgrid1-nodata-row .jsgrid1-cell {
+    padding: .5em 0;
+    text-align: center;
+}
+
+.jsgrid1-header-sort {
+    cursor: pointer;
+}
+
+.jsgrid1-pager {
+    padding: .5em 0;
+}
+
+.jsgrid1-pager-nav-button {
+    padding: .2em .6em;
+}
+
+.jsgrid1-pager-nav-inactive-button {
+    display: none;
+    pointer-events: none;
+}
+
+.jsgrid1-pager-page {
+    padding: .2em .6em;
+}
+.hide {
+  display: none !important; }
